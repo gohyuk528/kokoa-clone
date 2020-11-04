@@ -1,0 +1,29 @@
+.badge {
+  background-color: #ff6229;
+  color: white;
+  font-weight: 600;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge-sm {
+  background-color: #ff6229;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.badge-sm1 {
+  right: -5px;
+  top: -10px;
+}
+
+.badge-sm2 {
+  top: -20px;
+  right: 30px;
+}

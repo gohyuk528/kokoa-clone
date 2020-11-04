@@ -1,0 +1,27 @@
+.more-screen {
+  margin-top: 15px;
+}
+
+.more_info-icon {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.icon-row {
+  margin-top: 40px;
+}
+
+.icon-row2 {
+  margin-top: 10px;
+}
+
+.find-icons__icon {
+  position: relative;
+}
+
+.suggestions__bar {
+  margin-top: 20px;
+  padding-top: 30px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

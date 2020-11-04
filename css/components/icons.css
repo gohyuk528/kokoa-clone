@@ -1,0 +1,21 @@
+.icons-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.icons-box__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+.icons-box__icon span {
+  margin-top: 18px;
+  font-size: 17px;
+  text-align: center;
+  line-height: 22px;
+}
