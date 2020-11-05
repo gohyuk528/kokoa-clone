@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chatroom - Kokoa Clone</title>
+  </head>
+
+  <body id="chatroom-screen">
+    <div class="chatroom__header-bar">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>Han</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>91%</span>
+          <i class="fas fa-battery-full fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <header class="alt-header alt-header__chatroom">
+        <div class="alt-header__column">
+          <a href="chats.html"><i class="fas fa-angle-left fa-lg"></i></a>
+        </div>
+        <div class="alt-header__column alt-header__title__chatroom">
+          <span
+            ><h1 class="alt-header__title">
+              <i class="far fa-star fa-xs"></i> My energizer
+              <i class="far fa-star fa-xs"></i></h1
+          ></span>
+        </div>
+        <div class="alt-header__column">
+          <i class="fas fa-search fa-sm"></i>
+          <i class="fas fa-bars fa-sm"></i>
+        </div>
+      </header>
+    </div>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 25, 2020</div>
+
+      <div class="message-row">
+        <img src="css/assets/hanscream.jpg" />
+        <div class="mesage-row__content">
+          <span class="message__author"
+            ><i class="far fa-star fa-xs"></i> My energizer
+            <i class="far fa-star fa-xs"></i
+          ></span>
+          <div class="message__info">
+            <span class="message__bubble">똥!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="mesage-row__content">
+          <div class="message__info">
+            <span class="message__bubble">왜 ~~</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>Please reduce your screen size </span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/737cf47bec.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

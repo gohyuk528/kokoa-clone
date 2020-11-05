@@ -33,6 +33,10 @@
   bottom: 15px;
 }
 
+.nav__link .notification__chat {
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
 .notification__menu {
   background-color: #ff6229;
   display: flex;
@@ -41,4 +45,16 @@
   border-radius: 50%;
   position: absolute;
   left: 35px;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
 }

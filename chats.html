@@ -29,30 +29,34 @@
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="far fa-plus-square fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar"
-            src="css/assets/han.jpeg"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">
-              <i class="far fa-star fa-xs"></i> My energizer
-              <i class="far fa-star fa-xs"></i>
-            </h4>
-            <h6 class="user-component__subtitle">I love you ><</h6>
+      <a href="chatroom.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar"
+              src="css/assets/han.jpeg"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">
+                <i class="far fa-star fa-xs"></i> My energizer
+                <i class="far fa-star fa-xs"></i>
+              </h4>
+              <h6 class="user-component__subtitle">I love you ><</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">14:23</span>
+            <div class="badge">5</div>
           </div>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">14:23</span>
-          <div class="badge">5</div>
-        </div>
-      </div>
+      </a>
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -117,7 +121,9 @@
         </li>
       </ul>
     </nav>
-
+    <div id="no-mobile">
+      <span>Please reduce your screen size </span>
+    </div>
     <script
       src="https://kit.fontawesome.com/737cf47bec.js"
       crossorigin="anonymous"
